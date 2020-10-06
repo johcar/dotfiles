@@ -24,8 +24,8 @@ filetype plugin indent on
 
 set tabstop=4       " show existing tab with 4 spaces width
 set shiftwidth=4    " when indenting with '>', use 4 spaces width
-set expandtab"''""  " On pressing tab, insert 4 spaces On pressing tab, insert 4 spaces
+set expandtab"''""  " On pressing tab, insert 4 spaces
 set number          " show line numbers 
 set showcmd         " show command in bottom bar
 set incsearch       " search as characters are entered
-set hlsearch        " highlight matches""""
+set hlsearch        " highlight matches

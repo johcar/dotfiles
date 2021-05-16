@@ -5,3 +5,10 @@ source ~/.bash_functions
 alias code="code --disable-gpu"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias vim=nvim
+
+# Needed for lsp in neovim
+export JAR=/home/johanc/.local/share/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
+export JDTLS_CONFIG=/home/johanc/.local/share/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/config_linux/
+export WORKSPACE=$HOME/workspace
+export GRADLE_HOME=$HOME/gradle

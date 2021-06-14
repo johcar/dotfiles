@@ -1,6 +1,7 @@
 set encoding=utf-8
 
 syntax enable               " syntax highlighting, this is probably default as well
+let &fcs='eob: '            " remove tilde after buffer end
 filetype plugin indent on
 
 set tabstop=4               " show existing tab with 4 spaces width

@@ -1,0 +1,8 @@
+#plugins
+
+## to create a compile_commands.json file 
+cmake -Bbuild -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=YES
+
+## then link it to current dir
+ln -s build/compile_commands.json .
+

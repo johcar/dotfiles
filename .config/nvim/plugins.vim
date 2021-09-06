@@ -67,6 +67,11 @@ nvim_lsp.jdtls.setup({
     on_attach=on_attach
 })
 
+-- Enable ccls for c and c++
+nvim_lsp.ccls.setup({
+    capabilities=capabilities,
+    on_attach=on_attach
+})
 
 -- Enable diagnostics
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
